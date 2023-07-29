@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding: 100px;
+    
+    
+    
+}
+.container form{
+    top: 100px;
+    color: black;
+    width: 500px;
+    background-color: rgb(212, 0, 255);
+    height: 100%;
+    margin-left: 350px;
+    border: 2px dotted black;
+}
+.container form button:hover{
+    transform: scale(1.2);
+}
+.container {
+   display: block;
+}
+
+
+.chatroom-container{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+.chatroom-header {
+    background-color: rgb(23, 211, 228);
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+   
+}
+.message-recieved{
+    background-color:rgb(80, 109, 134);
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    
+}
+.message-sent{
+    align-self: flex-end;
+    background-color: aquamarine;    
+}
+.message-input{
+    height: 5vh;
+    padding: 0.5rem;
+}
+#input{
+    width: 85%;
+    height: 100%;
+    border-width: 2px solid black;
+    margin: 10px;
+}
+#send-button{
+    width: 10%;
+    height: 100%;
+    background-color: burlywood;
+   font-size: large;
+   font-weight: bolder;
+   border-radius: 5px;
+}
